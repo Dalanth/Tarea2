@@ -19,8 +19,16 @@ class Main(QtGui.QWidget): #Main UI screen
         self.load_products_by_search()
         self.load_brands()
         self.load_products()
-        self.show()
         self.set_listeners()
+        self.bar()
+        self.show()
+
+    def bar(self): 
+        self.ui.bar = QtGui.QMenu(u"Integrantes")
+        self.ui.menubar.addMenu(self.ui.bar)
+        self.ui.bar.addAction(u"Nicolás Aravena")
+        self.ui.bar.addAction(u"label")
+        self.ui.bar.addAction(u"label")
 
 
     def delete(self):
