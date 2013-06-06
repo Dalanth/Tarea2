@@ -27,7 +27,7 @@ class Main(QtGui.QWidget): #Main UI screen
         self.ui.bar = QtGui.QMenu(u"Integrantes")
         self.ui.menubar.addMenu(self.ui.bar)
         self.ui.bar.addAction(u"Nicolás Aravena")
-        self.ui.bar.addAction(u"label")
+        self.ui.bar.addAction(u"Arturo Reyes")
         self.ui.bar.addAction(u"label")
 
 
