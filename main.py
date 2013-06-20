@@ -22,7 +22,8 @@ class Main(QtGui.QWidget): #Main UI screen
         self.set_listeners()
         self.bar()
         self.show()
-
+	print("durr")
+	
     def bar(self): 
         self.ui.bar = QtGui.QMenu(u"Integrantes")
         self.ui.menubar.addMenu(self.ui.bar)
